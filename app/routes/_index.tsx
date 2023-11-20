@@ -313,25 +313,25 @@ export default function Index() {
 			</section>
 
 			<section className="achievments px-8 grid grid-cols-2 lg:flex justify-between mt-8 pb-8 flex-wrap">
-				<div className="grid text-center">
+				<div className="flex flex-col text-center">
 					<h1 className="font-bold text-[2rem] md:text-[4rem] leading-[80px] text-[#bfbfbf]">
 						1.5K+
 					</h1>
 					<p className="tracking-[7px] text-xs font-bold text-[#263786]">CANDIDATES</p>
 				</div>
-				<div className="grid text-center">
+				<div className="flex flex-col text-center">
 					<h1 className="font-bold text-[2rem] md:text-[4rem] leading-[80px] text-[#bfbfbf]">
 						400+
 					</h1>
 					<p className="tracking-[7px] text-xs font-bold text-[#263786]">SUCCESS STORIES</p>
 				</div>
-				<div className="grid text-center">
+				<div className="flex flex-col text-center">
 					<h1 className="font-bold text-[2rem] md:text-[4rem] leading-[80px] text-[#bfbfbf]">
 						100+
 					</h1>
 					<p className="tracking-[7px] text-xs font-bold text-[#263786]">COMPLETED PROJECTS</p>
 				</div>
-				<div className="grid text-center">
+				<div className="flex flex-col text-center">
 					<h1 className="font-bold text-[2rem] md:text-[4rem] leading-[80px] text-[#bfbfbf]">
 						4+
 					</h1>
