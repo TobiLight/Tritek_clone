@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+ a:hover span#about, a:hover b {
+	@apply text-yellow-300;
+}
+
+ a:hover span#bulletin, a:hover b {
+	@apply text-yellow-300;
+}
+
+ a:hover span#courses, a:hover b {
+	@apply text-yellow-300;
+}
+
+/* desktop */
+a.about:hover .sub-menu, a.courses:hover .sub-menu {
+	@apply !block w-auto;
+}
+
+.sub-menu {
+	@apply hidden;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee div {
+  /* display: inline-block; */
+  margin-right: 0px; /* Adjust spacing between items as needed */
+  animation: marqueeAnimation 15s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes marqueeAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.course-1:hover span {
+  @apply absolute top-0;
+}
+@tailwind utilities;
+
