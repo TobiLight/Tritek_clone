@@ -6,9 +6,9 @@ import IconClose from "~/components/Icons/Close";
 import Hamburger from "~/components/Icons/Hamburger";
 import IconMail from "~/components/Icons/Message";
 import IconPattern from "~/components/Icons/Pattern";
-import IconPlus from "~/components/Icons/Plus";
 import IconSearch from "~/components/Icons/Search";
 import IconFeedTrophy from "~/components/Icons/Trophy";
+import BgPattern from "public/bgpattern.png"
 
 export const meta: MetaFunction = () => {
 	return [
@@ -339,7 +339,7 @@ export default function Index() {
 				</div>
 			</section>
 
-			<section className="px-2 pt-24 pb-14 bg-[#061F90] relative">
+			<section style={{ backgroundImage: `url(${BgPattern})`, backgroundPosition: 'center center', backgroundSize: 'contain' }} className="px-2 pt-24 pb-14 bg-[#061F90] relative bg-cover">
 				<h1 className="text-center text-[#F5BD02] text-5xl font-bold mb-12">Our Courses</h1>
 				<div className="grid md:grid-cols-2 lg:grid-cols-3 px-4 gap-8 mb-28">
 					<div className="border border-white drop-shadow-xl">
