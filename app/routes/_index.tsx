@@ -254,39 +254,39 @@ export default function Index() {
 
 			<section className="marquee bg-gray-200 h-[70px] flex flex-row items-center px-4 gap-x-2 justify-betweens">
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 				<div className="flex flex-row items-center gap-x-1">
-					<IconFeedTrophy className="w-8 h-8" />
+					<IconFeedTrophy className="w-8 h-8" fill="#F5BD02" />
 					<p className="w-52 leading-4">African Legacy Award, 2022</p>
 				</div>
 			</section>
