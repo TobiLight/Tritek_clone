@@ -21,28 +21,63 @@ a.about:hover .sub-menu, a.courses:hover .sub-menu {
 	@apply hidden;
 }
 
-.marquee {
+/* 
+.slides {
+  @apply opacity-0 transition-opacity duration-500 ease-in-out;
+} */
+.slides {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  transform: translateX(100%);
   overflow: hidden;
-  white-space: nowrap;
+  height: 0;
 }
 
-.marquee div {
-  /* display: inline-block; */
-  margin-right: 0px; /* Adjust spacing between items as needed */
-  animation: marqueeAnimation 15s linear infinite; /* Adjust duration as needed */
+.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+  height: inherit;
 }
 
-@keyframes marqueeAnimation {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.slide-out {
+  opacity: 0;
+  transform: translateX(-100%);
+  height: 0;
 }
 
-.course-1:hover span {
-  @apply absolute top-0;
+.slides img {
+  @apply w-full;
 }
+
+.prev, .next {
+  @apply absolute top-[50%] w-auto p-[16px] mt-[-22px] text-[rebeccapurple] font-bold text-[20px] cursor-pointer;
+}
+
+.prev {
+  @apply left-0;
+}
+
+.next {
+  @apply right-0;
+}
+
+.tilt-container {
+  perspective: 1000px;
+}
+
+.tilt-on-hover-left, .tilt-on-hover-right {
+  transition: transform 0.3s ease-in-out;
+}
+
+@screen md {
+.tilt-on-hover-left:hover {
+  transform: rotateY(-7deg); /* Adjust the degree of tilt as needed */
+}
+
+.tilt-on-hover-right:hover {
+  transform: rotateY(7deg); /* Adjust the degree of tilt as needed */
+}
+}
+
 @tailwind utilities;
 
