@@ -190,7 +190,7 @@ export default function Index() {
 					</div>
 				</header>
 
-				<section className="hero h-auto md:h-[450px] lg:h-[600px] max-h-[600px] xl:h-[500px] xxl:h-[600px] bg-gray-300 relative">
+				<section className="hero h-auto md:h-[450px] lg:h-[600px] max-h-[600px] xl:h-[500px] xxl:h-[auto] bg-gray-300 relative">
 					<div className={`slide-container w-full relative m-auto h-[inherit]`}>
 						{slideImages.map((img, idx) => {
 							return (
