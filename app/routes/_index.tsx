@@ -223,15 +223,15 @@ export default function Index() {
 
 						<div className="lg:flex lg:flex-row mb-5">
 							<div className="flex flex-col lg:flex-row gap-y-4 lg:gap-x-4 pl-3 h-[fit-content]">
-								<Link to="#" className="bg-[#263786] text-white p-2 w-[fit-content] rounded-full">Get Started</Link>
+								<Link to="#" className="bg-[#263786] text-white px-4 py-2 w-[fit-content] rounded-full">Get Started</Link>
 							</div>
 						</div>
 					</div>
 					<div className="bg-gray-300 w-full lg:w-[-webkit-fill-available] mx-auto p-6 h-[300px] md:h-[550px] lg:h-[350px] bg-cover" style={{ backgroundImage: `url(${ImageBg})` }}></div>
 				</section>
 
-				<section id="about-us" style={{ backgroundImage: `url(${BgPattern})`, backgroundPosition: 'center center', backgroundSize: 'contain' }} className="about px-2 pt-24 pb-14 relative bg-cover">
-					<h1 className="text-center text-[#F5BD02] text-5xl font-bold mb-12">About Us</h1>
+				<section id="about-us" className="about-us px-2 pt-24 pb-14 relative bg-cover">
+					<h1 className="text-center text-white text-5xl font-bold mb-12">About Us</h1>
 					<div className="grid md:grid-cols-2 items-center px-4 gap-8 mb-28 tilt-container">
 						<div className="border border-white drop-shadow-xl bg-white py-6 px-8 text-[#263786] grid gap-y-4 h-[-webkit-fill-available] tilt-on-hover-right">
 							<div className="flex flex-col items-center gap-2 justify-center">
@@ -272,7 +272,7 @@ export default function Index() {
 							</div>
 						</div>
 					</div>
-					<IconPattern className="absolute bottom-0 transform rotate-[180deg]" fill="#1130bf" />
+					<IconPattern className="absolute bottom-0 transform rotate-[180deg]" fill="#73C2FB" />
 				</section>
 
 				<section id="contact-us" className="bg-white px-4 pt-12 pb-14">
@@ -302,7 +302,7 @@ export default function Index() {
 					</div>
 
 				</section>
-				<footer className="bg-yellow-300 px-12 py-4 w-full grid md:flex md:flex-row md:justify-between gap-10">
+				<footer className="bg-[#73C2FB] text-gray-800 px-12 py-4 w-full grid md:flex md:flex-row md:justify-between gap-10">
 					<div className="flex flex-col gap-2 pt-10">
 						<h3 className="font-bold text-2xl leading-normal">GET IN TOUCH</h3>
 						<div className="text-sm">

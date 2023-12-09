@@ -50,9 +50,11 @@ a.about:hover .sub-menu, a.courses:hover .sub-menu {
   transition: transform 0.3s ease-in-out;
 }
 
-.about {
-  background-color: linear-gradient(to top, #09203f 20%, #537895 100%);
+.about-us {
+  /* background: linear-gradient(to top, #4481eb 0%, #04befe 100%); */
+  background: linear-gradient(109.6deg, rgb(31, 179, 237) 11.2%, rgb(17, 106, 197) 91.1%);
 }
+
 
 @screen md {
 .tilt-on-hover-left:hover {
