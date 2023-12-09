@@ -50,6 +50,10 @@ a.about:hover .sub-menu, a.courses:hover .sub-menu {
   transition: transform 0.3s ease-in-out;
 }
 
+.about {
+  background-color: linear-gradient(to top, #09203f 20%, #537895 100%);
+}
+
 @screen md {
 .tilt-on-hover-left:hover {
   transform: rotateY(-7deg); /* Adjust the degree of tilt as needed */

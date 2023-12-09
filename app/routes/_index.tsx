@@ -83,7 +83,7 @@ export default function Index() {
 
 	useEffect(() => {
 		const intervalId = setInterval(() => {
-			changeSlide(1)
+			// changeSlide(1)
 		}, 1500);
 		return () => clearInterval(intervalId)
 	}, [slideIndex])
@@ -190,15 +190,15 @@ export default function Index() {
 					</div>
 				</header>
 
-				<section className="hero h-auto md:h-[450px] lg:h-[600px] max-h-[600px] xl:h-[500px] xxl:h-[auto] bg-gray-300 relative">
+				<section className="hero h-auto md:h-[450px] lg:h-[600px] xl:max-h-[700px] xl:h-[500px] 3xl:h-[700px] bg-gray-300 relative">
 					<div className={`slide-container w-full relative m-auto h-[inherit]`}>
 						{slideImages.map((img, idx) => {
 							return (
 								<div
 									key={idx}
-									className={`slides h-[inhrit] ${slideIndex === idx + 1 ? 'slide-in' : 'slide-out'}`}
+									className={`slides h-[inherit]`}
 								>
-									<img src={img} alt="" className="h-[inherit] lg:h-[600px] xl:h-[500px] xxl:h-[auto]" />
+									<img src={img} alt="" className="h-[inherit]" />
 								</div>
 							);
 						})}
@@ -230,7 +230,7 @@ export default function Index() {
 					<div className="bg-gray-300 w-full lg:w-[-webkit-fill-available] mx-auto p-6 h-[300px] md:h-[550px] lg:h-[350px] bg-cover" style={{ backgroundImage: `url(${ImageBg})` }}></div>
 				</section>
 
-				<section id="about-us" style={{ backgroundImage: `url(${BgPattern})`, backgroundPosition: 'center center', backgroundSize: 'contain' }} className="px-2 pt-24 pb-14 bg-[#061F90] relative bg-cover">
+				<section id="about-us" style={{ backgroundImage: `url(${BgPattern})`, backgroundPosition: 'center center', backgroundSize: 'contain' }} className="about px-2 pt-24 pb-14 relative bg-cover">
 					<h1 className="text-center text-[#F5BD02] text-5xl font-bold mb-12">About Us</h1>
 					<div className="grid md:grid-cols-2 items-center px-4 gap-8 mb-28 tilt-container">
 						<div className="border border-white drop-shadow-xl bg-white py-6 px-8 text-[#263786] grid gap-y-4 h-[-webkit-fill-available] tilt-on-hover-right">
